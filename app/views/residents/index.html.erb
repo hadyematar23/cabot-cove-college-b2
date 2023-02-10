@@ -1,0 +1,11 @@
+<h1> Residents </h1>
+
+<p> <%@residents.each do |resident|%>
+<%=resident.name%>
+<%=resident.age%>
+<%=resident.occupation%>
+<br>
+<%end%>
+</p> 
+
+<p>Average Age :<%=@age%></p>
